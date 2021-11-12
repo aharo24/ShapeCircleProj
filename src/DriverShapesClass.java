@@ -11,8 +11,11 @@ public class DriverShapesClass
         System.out.print("Enter Circle's Radius: ");
         circleObj.setRadius(sc.nextDouble());
 
-        System.out.print("Enter Circle's Area: ");
-        circleObj.setArea(sc.nextDouble());
+        //System.out.print("Enter Circle's Area: ");
+        //circleObj.setArea(sc.nextDouble());
+
+        System.out.print("Enter Circle's Circumference: ");
+        circleObj.setCircumference(sc.nextDouble());
 
         circleObj.printCircleInfo();
 

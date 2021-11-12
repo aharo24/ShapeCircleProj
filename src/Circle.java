@@ -2,6 +2,8 @@ public class Circle
 {
     private double radius;
     private double  area;
+    private double circumference;
+
     private final double pi = Math.PI;
 
     public void setRadius(double userRadius){
@@ -38,9 +40,13 @@ public class Circle
     }
 
     //Method/Function for Radius
+    public void setCircumference(double userCircumference){
+        this.circumference = userCircumference;
+    }
+
     public double getRadius(){
         //--> formula : ( sqrt( A/pi) )
-        double radius = Math.sqrt( (area / pi ) );
+        double radius = ( ( circumference ) / ( 2 * pi ) );
 
        // double Area = this
 
