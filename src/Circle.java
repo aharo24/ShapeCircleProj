@@ -3,7 +3,6 @@ public class Circle
     private double radius;
     private double  area;
     private double circumference;
-
     private final double pi = Math.PI;
 
     public void setRadius(double userRadius){
